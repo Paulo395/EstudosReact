@@ -4,6 +4,7 @@ export default function Formulario() {
     const [frase,setFrase] = useState()
 
     function CadastroUsuario(e) {
+        e.preventDefault() //Impede que o formulario seja enviado
         console.log(frase)
     }
 
